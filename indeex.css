@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+
+}
+
+#nav1 h1 {
+    padding: 10px;
+}
+
+#nav1 {
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    gap: 2px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+
+}
+
+#nav1 h4 {
+    padding: 15px;
+    font-weight: 100;
+}
+
+#side {
+    position: absolute;
+    display: flex;
+    padding: 20px 30px;
+    left: 80%;
+    gap: 10px;
+}
+
+#side h3 {
+
+    font-weight: 300;
+    font-size: 15px;
+
+
+}
+
+#nav2 {
+
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    gap: 1px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#nav2 h1 {
+    position: absolute;
+    left: 50px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+#nav2 h3 {
+
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+#nav2 button {
+    position: absolute;
+    right: 60px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 4px 10px;
+    font-weight: 400;
+}
+
+#nav2 button:hover {
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+#center {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#img1 {
+    position: absolute;
+    padding: 0px 10px;
+    margin: 60px;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+
+}
+
+#center h1 {
+    position: absolute;
+    text-align: center;
+    margin: 90px;
+    padding: 130px;
+    left: 100px;
+    bottom: 30%;
+}
+
+span1 {
+    color: brown;
+}
+
+span2 {
+    color: rgb(8, 46, 149);
+}
+
+span3 {
+    color: yellow;
+}
+
+span4 {
+    color: green;
+}
+
+#img22 {
+    position: absolute;
+    right: 30px;
+    padding: 3px;
+    margin: 80px;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
+
+#center button {
+    position: absolute;
+
+    bottom: 155px;
+    margin: 198px;
+    left: 255px;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 400;
+
+
+}
+
+#center button:hover {
+
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#img33 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    padding: 0px 10px;
+    margin: 80px;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
+
+#img44 {
+    position: absolute;
+    top: 50%;
+
+    right: 90px;
+    padding: 3px;
+    margin: 80px;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+}
